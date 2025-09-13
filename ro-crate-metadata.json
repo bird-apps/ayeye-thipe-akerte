@@ -1,0 +1,2288 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/",
+      "ldac": "https://w3id.org/ldac/terms#",
+      "csvw": "http://www.w3.org/ns/csvw#",
+      "custom": "arcp://name,custom/terms#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": [
+        "Dataset",
+        "RepositoryCollection"
+      ],
+      "name": "Ayeye Thipe-akerte",
+      "description": "Arrernte birds",
+      "isRef_author": "",
+      "isRef_publisher": "",
+      "pcdm:hasMember": [
+        {
+          "@id": "#akatwengatwenge"
+        },
+        {
+          "@id": "#alpwertekalpwerte"
+        },
+        {
+          "@id": "#angepe"
+        },
+        {
+          "@id": "#angkwene"
+        },
+        {
+          "@id": "#arleye"
+        },
+        {
+          "@id": "#arlpatye"
+        },
+        {
+          "@id": "#arrewelkere"
+        },
+        {
+          "@id": "#arrpwere"
+        },
+        {
+          "@id": "#artapwe-artapwe"
+        },
+        {
+          "@id": "#artetyerretyerr"
+        },
+        {
+          "@id": "#artewe"
+        },
+        {
+          "@id": "#atetherre"
+        },
+        {
+          "@id": "#ilentye"
+        },
+        {
+          "@id": "#irrarnte"
+        },
+        {
+          "@id": "#irretye"
+        },
+        {
+          "@id": "#irrkerlantye"
+        },
+        {
+          "@id": "#kwerrkwerrke"
+        },
+        {
+          "@id": "#lperrpaye"
+        },
+        {
+          "@id": "#lyerre-lyerre"
+        },
+        {
+          "@id": "#mekalhampwe"
+        },
+        {
+          "@id": "#mpernpe"
+        },
+        {
+          "@id": "#nturrerte"
+        },
+        {
+          "@id": "#ntyerlpenye"
+        },
+        {
+          "@id": "#nyingke"
+        },
+        {
+          "@id": "#parlkene"
+        },
+        {
+          "@id": "#pelkere"
+        },
+        {
+          "@id": "#teye-teye"
+        },
+        {
+          "@id": "#tirre-tirre"
+        },
+        {
+          "@id": "#tyewaketye"
+        },
+        {
+          "@id": "#urelyarre"
+        },
+        {
+          "@id": "#uringe"
+        }
+      ],
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ldac/profile#Collection"
+        }
+      ]
+    },
+    {
+      "@id": "#akatwengatwenge",
+      "@type": "RepositoryObject",
+      "name": "akatwengatwenge",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Red-capped Robin",
+      "sentence": "Thipe akweke anthurre mape, aywerte-arenye. Arne akweke mapeke\napeke arerle aw arne akngerrele apeke arrkene-irrerlenge.\n\nIrlpelhe ikwerenhe urrperle mperlkere ahelhe-ahelhe ante akaperte athetheke.\n\nAkaperte arle akwele atwerreke-iperre, alhwe-iperre anteme akwele impatye yanhe, kapertelearlenge.\n\nAntywe akweke artetyerretyerre-kenhe arteke akine ikwerenhe re mpwareme. Ante aywerte kweneke ware irrperle tyerrtye mape apeke aremele.",
+      "sentenceTranslation": "They are very small birds that live in the spinifex.\nYou see them in little trees, or even in big trees you see them playing around.\nIt has black wings, white and a bit of brown and its head is red.\nIt must have got hit on the head - the story to it that the red is the tracks of its blood on its head.\nThey make the same kind of little nest as the willywag tail does (like a little bag hanging in a tree). They go into the spinifex when they see people coming.\nThey eat little grubs and little insects and a lot of other little things that birds eat.\n",
+      "scientificName": "Petroica goodenovii",
+      "callAudio": "files/audio/calls/24_Red-capped_Robin_(AM_-_song).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161027-01-aktwengetwenge-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161027-01-aktwengetwenge.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-akatwengatwenge-1.png"
+        },
+        {
+          "@id": "files/audio/calls/24_Red-capped_Robin_(AM_-_song).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161027-01-aktwengetwenge-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161027-01-aktwengetwenge.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#alpwertekalpwerte",
+      "@type": "RepositoryObject",
+      "name": "alpwertekalpwerte",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "butcherbird",
+      "sentence": "Thipe urrperle ante mperlkere, arrakerte urrperle. Arrpwere-arteke akine renhe aretyeke akwele ulkere arle re.\nItnenhenhe aretyeke, apmere putyeke aw apmere arrpenhe aneke. \nRe arlkweme kere – kelyawe, tyape akweke, intelyapelyape. Intelyapelyape akweke, ante thipele arlkwentye akngerre renhe.\nAntywe ikwerenhe mpwareme arne arntarlkweke, arrpwere-arteke akine.",
+      "sentenceTranslation": "This is a black and white bird with a black beak It looks a bit like a magpie  but smaller.\nYou see them out in the bush and everywhere else.\nIt eats meat lizards, little grubs and butterflies little butterflies and anything that a bird can eat.\nIt makes its nest in the fork of a tree like magpies do.\n",
+      "scientificName": "Cracticus nigrogularis",
+      "callAudio": "files/audio/calls/95_Pied_Butcherbird_(song_at_daylight).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161027-02-edit-alpwertekalpwerte-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161027-02-edit-alpwertekalpwerte.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-alpwertekalpwerte.jpg"
+        },
+        {
+          "@id": "files/audio/calls/95_Pied_Butcherbird_(song_at_daylight).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161027-02-edit-alpwertekalpwerte-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161027-02-edit-alpwertekalpwerte.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#angepe",
+      "@type": "RepositoryObject",
+      "name": "angepe",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "crow",
+      "sentence": "Thipe angepe apele unte aretyeke, urrperle, alknge kwarte mperlkere. Putye-warne alhemele, atningke-anthurre arle anyente apeke, aw atherre mape apeke.\nArnterre-anthurre angkerle anerlenge. Mapele, apmere mpwaremele aneme arne akertnele anerlenge aremele. Merneke ankeyele, kereke apeke.\nPutyenge mape arntarnterentye akngerre akine – thipe angepele artwe putye-arenye itne alkngarre ilemele-ileme, ‘Arlenge alhetyale kwenhe, yanhe-ketyenge kwenhe.’\nKele arelhele apeke, mape angkemele ileme, ‘Mpareye alpetyekaye, apmere-warne alpetyekeye, angepe angkemenge kwene.’ Kele itne alpemele anteme ingkerre apmere-warne.\n",
+      "sentenceTranslation": "The crow is a black bird and its eyeball is white.\nwhen you go out bush you see big mobs of crows – or one or two.\nThey talk really loud.\nWhen people make camp he sits up the tree watching them. He wants that food and that meat.\nThey are caring birds - they hang around people \nand if they see something dangerous they warn you (and say), 'don't go too far from the camp, might be danger there'\nThen a woman might tell people, singing out, 'let's go home, the crow is warning us about something!'\nAnd then everyone will go home.\n",
+      "scientificName": "Corvus bennetti, Corvus orru",
+      "callAudio": "files/audio/calls/19_Little_Crow_(Adult_'uh'_-_several_calling).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160707-04-angepe-edit-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160707-04-angepe-edit.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-angepe-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/19_Little_Crow_(Adult_'uh'_-_several_calling).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160707-04-angepe-edit-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160707-04-angepe-edit.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#angkwene",
+      "@type": "RepositoryObject",
+      "name": "angkwene",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Major Mitchell Cockatoo",
+      "sentence": "Thipe angkwene aretyeke mperlkere akngerre. Arne akertnele anirrirrerlenge, bore itwele, aw dam itwele apeke. Aw kwatye awenge lherele arle intemeke apeke.\n\nKaperte ikwerenhele ilpelhe arrirlpe tneme, pelkere-arteke akine. Wale ikwerenhe arle athetheke an untarne-untarne. Mwerre akngerre anthurre.\n\nItne putyeke pateyemalene ntange arlkweme ante arnengentyele ntange arlkweme atwakeye, lyeke arlke.\n\nApurte akwete alkereke-irreme, akngerre anthurre angkerremele.\n",
+      "sentenceTranslation": "The Major Mitchell Cockatoo is a white bird.\n\nYou see them near the bores, sitting in trees, or near the dams. Or near the waterhole, where the water is in the creek.\n\nIt has sharp feathers on his head similar to the crested pigeon. It has a bit of red and a bit of yellow. It is very beautiful.\n\nThey eat the seeds of paddy melons and seeds from all kinds of trees such as wild orange. They also eat prickles.\n\nThey fly in groups, making a lot of noise.\n",
+      "scientificName": "Lophochroa leadbeateri",
+      "callAudio": "files/audio/calls/37_Major_Mitchell's_Cockatoo_(two_adults_calling).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160707-05-angkwene-name.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160707-05-angkwene-edit.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-angkwene-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/37_Major_Mitchell's_Cockatoo_(two_adults_calling).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160707-05-angkwene-name.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160707-05-angkwene-edit.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#arleye",
+      "@type": "RepositoryObject",
+      "name": "arleye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Emu",
+      "sentence": "Unte arleye aretyeke apmere-arrpe anenhe ikwere. Putye-werne alhemele, anyente apeke, atherre apeke, aw atningke mpwanke apeke.\n\nKwarte itne mpwareme, atherrke akertneke ware. Kwarte atningke, six pale, eight, aw nine apeke. Atherrke-atherrke mape. Anwerne arleye arlkweme, kwarte-arlke.\n\nArleye apele thipe akngerre-apenhe anthurre. Re ahelhele ware untentye akngerre. Alkereke irretyeke arrangkwe, ilpelhe urteke anthurre-nge. Brown one, ite arlpentye, blue akweke ware, ite ikwerenhe.\n\nRe pwelerte anthurre unteme nanthe-nge anpere anthurre.",
+      "sentenceTranslation": "You see emus all over the place. When you go bush, there might be one, or perhaps two, or a whole lot of them.\n\nIt lays its eggs just on the grass. There are many eggs, sometimes six, eight or nine perhaps. They are green in colour. We eat the emu, also the eggs.\n\nThe emu is a very big bird. It just runs on the plain. It doesn't fly in the sky, its wings are too short. It is brown in colour, with a long neck and a little bit of blue around the neck.\n\nWhen he runs very fast, he's faster than a horse.\n",
+      "scientificName": "Dromaius novaehollandiae",
+      "callAudio": "files/audio/calls/42_Emu_(deep_grunts_and_drumming).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160331-02-arleye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160331-02-arleye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-arleye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/42_Emu_(deep_grunts_and_drumming).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160331-02-arleye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160331-02-arleye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#arlpatye",
+      "@type": "RepositoryObject",
+      "name": "arlpatye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Australian Ringneck",
+      "sentence": "Atherrke-atherrke, untye ikwerenhe untarne-untarne. Kaperte urrperle, atnertenge kwene-urlkere urrperle. Tayele ikwerenhe blue akweke. Thipe mwerre akngerre anthurre.\n\nItne ntange artetye-arenye arlkweme, ante arne arrpenhe mape-entyele. Itne antywe mpwareme utnantheke, aw apereke apeke, ulte kweneke.\n\nTyerrtye mapele arlpatye arlkwentye akngerre. Kere anwerne-kenhe, kere putye-arenye.\n\n",
+      "sentenceTranslation": "It is green, and its neck is yellow. Its head is black, and there is black on its belly. It has a bit of blue in its tail. It is a beautiful bird.\n\nThey eat mulga seeds and seeds from other trees as well. They make their nest in the gidgee tree or in the hollow of a river gum.\n\nPeople eat ring-necked parrots. It is our meat, our bush meat.\n\n\n",
+      "scientificName": "Barnardius zonarius",
+      "callAudio": "files/audio/calls/10_Australian_Ringneck_(call_while_perched_and_flying).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160512-arlpatye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160512-arlpatye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-arlpatye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/10_Australian_Ringneck_(call_while_perched_and_flying).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160512-arlpatye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160512-arlpatye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#arrewelkere",
+      "@type": "RepositoryObject",
+      "name": "arrewelkere",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Cockatiel",
+      "sentence": "Thipe arrewelkere arerle, atningke anthurre anerlenge, kwatye itwele. Kwatye awenge itwele, dam itwele, bore-ke arlke arerle. Angkemele anerrirrerlenge. Apurte akwete alkererle alherlenge aretyeke.\n\nThipe intelhentye, kwerte- kwerte mperlkere ante athetheke spot akweke, inngerrele, untarne-untarne akweke ware. Kaperte ikwerenhe arrirlpe, pelkere- arteke akine.\n\nItne ntange atherrke arlkweme, aw ahelheke aremele apeke. Itne antywe itne-kenhe mpwareme. Arne antyerrke akertneke, ulte kweneke, kwarte arlke.\n\nTyerrtyele renhe arlkwentye akngerre, kere anwerne-kenhe.\n\n",
+      "sentenceTranslation": "You see big mobs of cockatiels sitting close to the water. Near the waterhole and the dam, and you also see them at the bores. All sitting around talking. They are always in a group when they are flying.\n\nThey are multicoloured birds, with pale blue-grey smoky colour and a bit of white, and small red spots on the face, with bits of yellow. They have a feather crest on their head, similar to the Crested pigeon.\n\nThey eat seeds from the grass or whenever they see them on the ground. They make their nest in a hollow of a tree and their eggs are there.\n\nPeople eat cockatiels, that's our meat.\n\nBy Therese Ryder",
+      "scientificName": "Nymphicus hollandicus",
+      "callAudio": "files/audio/calls/Cockatiel_(calls_-_perched).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160512-arreweyelkere_315_1990.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160512-arreweyelkere_2911_58083.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-arrewelkere-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/Cockatiel_(calls_-_perched).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160512-arreweyelkere_315_1990.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160512-arreweyelkere_2911_58083.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#arrpwere",
+      "@type": "RepositoryObject",
+      "name": "arrpwere",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "magpie",
+      "sentence": "Thipe arrpwere apele urrperle ante mperlkere. Thipe teye-teye-arteke kene renhe aretyeke, rarle akngerre-ulkere arle.\n\nArne akngerre akertneke renhe arerle-anerlenge. Angkerlenge renhe awetyeke, angkentye mwerre akngerre anthurre. Putyele apeke intemele you renhe awerle ingweleme anthurre angkerlenge.\n\nAhelhele alherlenge renhe arerle, apmwe akwekeke apeke, aw tyape akweke arne kwene-arenyeke apeke, arlkwetyenhenge. Itne antywe itne-kenhe mpwareme apere ulte kweneke, kwarte ikwerenhe arlke.\n\nThipe arrpwere anwerne arlkwentye akngerre kwenye, kere anwerne- kenhe anetyakenhe arle re.\n",
+      "sentenceTranslation": "The magpie is black and white. He looks like the magpie-lark, but is a bit bigger.\n\nYou see him sitting up in a big tree. When he sings he makes a lovely sound. When you're out in the bush you hear them singing early in the morning.\n\nWhen he walks around on the ground he is looking for grubs in logs, or little snakes, for food to eat. These birds make nests in the hollows of gumtrees and that’s where they lay their eggs.\n\nWe don't eat him, he's not our meat.\n\n\n",
+      "scientificName": "Cracticus tibicen",
+      "callAudio": "files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-rrpwere-2.jpg"
+        },
+        {
+          "@id": "files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#artapwe-artapwe",
+      "@type": "RepositoryObject",
+      "name": "artapwe-artapwe",
+      "datePublished": "2016-11-08 01:36:17",
+      "translation": "Black kite",
+      "sentence": "Artapwe-artapwe - irretye mape arteke akine renhe aretyeke. Re kere arlkweme. Kere akweke mape nhenge athakwere, kelyawe, ankerte apeke, arlewatyerre apeke. Ante re arlkweme, merne ngkweltye aremele ahelheke, iwerreke arle.\n\nAntywe re mpwareme, arne akweke mape inemele, arne akertneke mpwareme, irretyele-arteke akine.\n\nPutyenge ure akngerre ampeme, unte aretyeke artapwe-artapwe mape, alkerele untherlenge. Urele arle ampeke kere mape arlkwetyeke.\n",
+      "sentenceTranslation": "The black kite is in the wedge-tailed eagle family. It eats meat. It eats mice,  lizards cadneys, goannas It eats bits of food scattered on the ground after people have been eating.\n\nIt makes its nest out of little sticks high in a big tree just like wedge-tailed eagles.\n\nWhen you see bush fires burning you see lots of black kites  flying around. They eat anything that gets burnt in the fire.\n",
+      "scientificName": "Milvus migrans",
+      "callAudio": "files/audio/calls/27_Black_Kite_(adult_-_trill-whistle)).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161108-01-artapwe-artapwe-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161108-01-artapwe-artapwe.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/artapwe-artapwe-black-kite.jpg"
+        },
+        {
+          "@id": "files/audio/calls/27_Black_Kite_(adult_-_trill-whistle)).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161108-01-artapwe-artapwe-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161108-01-artapwe-artapwe.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#artetyerretyerr",
+      "@type": "RepositoryObject",
+      "name": "artetyerretyerr",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Willy-wagtail",
+      "sentence": "Thipe artetyerretyerre unte aretyeke, urrperle, tayele arlpentye, ante inwenge mperlkere.\n\nRenhe angkerlenge awerle, akngerre anthurre. Re apeke ngkwenge ileme, arne iwenhe apeke renhe aremele. Apmwe apeke aremele, aw unte apeke apmere kwenele aneme, re ilelheme rarle akethele anemele.\n\nRe arlkweme intelyapelyape akweke, tyape aparre ahelhe-arenye, ante alkereke-irrentye akngerre itne arlwentye akngerre mape.\n\nAntywe ikwerenhe re mpwareme arneke arlpare anetyeke yakwethe akweke arteke, kwarte ikwerenhe arlke. Anwerne artetyeretyerre arlkwentye akngerre kwenye.\n\n",
+      "sentenceTranslation": "You see the Willy Wagtail, it is black in colour, long tail and white breast.\n\nWhen they talk they talk real loud. It tells you about anything that it sees. Maybe it sees a snake, or if you are inside the house he's telling you he's outside there.\n\nHe eats small butterflies, grubs that live in the ground and any kind of insects that fly around.\n\nIt makes its nest, it looks like a little bag hanging in the tree, for its eggs. We would never eat the willy wagtail bird.\n\n",
+      "scientificName": "Rhipidura leucophrys",
+      "callAudio": "files/audio/calls/18_Willie_Wagtail_(leucophrys)(song___chitter).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160407-artetyerretyerre-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160407-artetyerretyerre.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-artetyerretyerr-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/18_Willie_Wagtail_(leucophrys)(song___chitter).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160407-artetyerretyerre-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160407-artetyerretyerre.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#artewe",
+      "@type": "RepositoryObject",
+      "name": "artewe",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "bush turkey",
+      "sentence": "Artewe apele anwerne arlkweme, kere anwerne-kenhe. Arrekwelenyele arle arlkwerretyarte.\n\nKwatye akngerre-iperre aretyeke atherrke akngerre taym atningke anthurre. Nameke ntange arlkwerlenge. Re tyerrtye mape aremele, ite arlpentye irremele. Re parrpe akngerre alheme atere-atere irremele re alkereke irremele unteme.\n\nKwarte re mpwareme atherrke kweneke ware. Ante re arlkweme antelyapelyape akweke mape, tyape akweke atherrke kweneke arlke, apmwe akweke, aw kelyawe akweke mape arlke. Artewe apele, playne akngerre-arenye.\n",
+      "sentenceTranslation": "We eat the bush turkey, it is our meat. Old people used to eat it in the old days.\n\nAfter the big rain when there is a lot of grass, you see a big mob of them. They eat grass seeds. When they see people, he stretches his neck long. He hurries along looking scared, he flies away into the sky.\n\nIt lays eggs in the grass. It feeds on little butterflies, little caterpillars from underneath the grass, little snakes and little lizards. It lives on the open plain.\n",
+      "scientificName": "Ardeotis australis",
+      "callAudio": "files/audio/calls/4_Australian_Bustard_('huff'_and_roar).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160331-04-artewe-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160331-04-artewe.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-artewe-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/4_Australian_Bustard_('huff'_and_roar).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160331-04-artewe-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160331-04-artewe.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#atetherre",
+      "@type": "RepositoryObject",
+      "name": "atetherre",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Budgerigar",
+      "sentence": "Thipe atetherre apele apmere Central Australia-ke aretyeke, apmere arrpanenheke.\n\nKwatyeke itne irrperreme, atningke anthurre, apurte irremele. Alkererele alherlenge arerle, apurte mpwanke.\n\nItne ntange ahelheke aremele arlkweme. Itne antywe mpwareme ulte kweneke, arne akertneke.\n\nThipe atetherre tyerrtyele arlkweme, kere anwerne-kenhe. Arrekwelenyele arle arlkwerretyarte.\n\nThipe atetherre kwenhe atherrke-atherrke mape.",
+      "sentenceTranslation": "Budgerigars live in Central Australia and are seen all over the place.\n\nThey come to the water as one big group. You see them flying in one big group.\n\nThey see seeds on the ground and eat them They make a nest in a hollow up high in a tree.\n\nPeople eat budgerigars, it's meat that we eat. Old people in the early days used to eat them.\n\nBudgerigars are green in colour.\n",
+      "scientificName": "Melopsittacus undulatus",
+      "callAudio": "files/audio/calls/31_Budgerigar_(small_flock_perched).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20151124-01-atetherr-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20151124-01-atetherr.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-atetherre-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/31_Budgerigar_(small_flock_perched).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20151124-01-atetherr-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20151124-01-atetherr.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#ilentye",
+      "@type": "RepositoryObject",
+      "name": "ilentye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Galah",
+      "sentence": "Ilentye mape aretyeke, apmere arrpanenheke, town-ke apeke, park mapeke arlke arerle. Apmere putye-werne alhemele, atningke anthurre arerle.\n\nUnte apeke lherele apeke interle, kele unte aretyeke ilentye mape apere akertnele anerlenge, ingwele arlke. Ratye-irrerlenge yanhe unte aweme, wale iwenhenge apekarle itne alakenhe irremenge unte know-im-iletyeke.\n\nTyerrtye apeke lherele apetyeme kele unte mwantye anetyeke, aw akngwelye arlke apeke. Unte nhenge akarre anetyeke mpwareme.\n\nIlentyele merne ntange arle atningke arlkwentye akngerre arne-arenye ntange ahelheke arlkweme pateyemalene ntange arlke. Itne apere ultele aneme, antywe kwenele.\n\nIlentye kwenhe anwerne arlkwentye akngerre, anwerne- kenhe kere.",
+      "sentenceTranslation": "You see galahs all over the town and in all the parks. When you go out in the bush you see big mobs of them.\n\nWhen you camp in the creekbed you see the galahs sitting up in the gumtrees, even at night. If you hear them being disturbed, well you will know something is around. \n\nMaybe someone is walking in the riverbed. Then you need to look out, there may be danger coming, possibly a dingo. It makes you stay awake.\n\nGalahs they eat big mobs of seeds. They eat seeds from the trees and from the ground and also the seeds of the paddy melon. Their nest is in the hollow of a gum tree.\n\nWe eat galahs, they are our bush tucker.\n\n",
+      "scientificName": "Cacatua roseicapilla",
+      "callAudio": "files/audio/calls/40_Galah_(several_calling).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20151126-01-ilentye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20151126-01-ilentye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-ilentye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/40_Galah_(several_calling).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20151126-01-ilentye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20151126-01-ilentye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#irrarnte",
+      "@type": "RepositoryObject",
+      "name": "irrarnte",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Red-tailed Black Cockatoo",
+      "sentence": "Irrarnte mape apele apmere arrpanenheke aretyeke putye-werne alhemele. Apurte mpwanke anerlenge aw alkerele alherlenge, angkerremele.\n\nThipe urreye-kenhe tayele aretyeke, athetheke. Kenhe marle-kenhe tele akenhe untarne-untarne arle. Thipe mwerre akngerre mape.\n\nApere ulteke itne antywe itne-kenhe mpwareme, kwarte itnekenhe arlke. Itne-kenhe ntange akenhe pateyemalene, ante itne lyeke arlkwentye akngerre, merne itne-kenhe.\n\nIrrarnte anwerne arlkweme, kere anwerne-kenhe.",
+      "sentenceTranslation": "When you go out bush you see the Red-tailed Black Cockatoo all over the place. They talk, talk, talk when they fly along in a group.\n\nYou see the male one's tail, it is red. And the female bird's tail is yellow. They are beautiful birds.\n\nIts nest is in the river red gum, it makes it there to lay its eggs. It eats paddy melon seeds, and also all kinds of prickles, that's its food.\n\nWe eat the Red-tailed Black Cockatoo, it's our meat.\n",
+      "scientificName": "Calyptorhynchus banksii",
+      "callAudio": "files/audio/calls/38_Red-tailed_Black-Cockatoo_(adults_and_juveniles).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160407-irrarnte-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160407-irrarnte.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-irrarnte-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/38_Red-tailed_Black-Cockatoo_(adults_and_juveniles).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160407-irrarnte-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160407-irrarnte.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#irretye",
+      "@type": "RepositoryObject",
+      "name": "irretye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Wedge-tailed eagle",
+      "sentence": "Thipe irretye apele akngerre apenhe anthurre. Re apwerte akertne anthurreke, antywe mpwareme, aw arne akngerre anthurreke apeke.\n\nRe arlkweme rapete aw naneyekwete akweke aw pweleke akweke apeke aremele.\n\nApwerte akertne anthurre-werne alkereke-irremele imarte kere renhe akngirtnemele arlkwetyeke, aw akwerrke ikwerenhe apeke wantetyeke.",
+      "sentenceTranslation": "The wedge-tailed eagle is a very big bird. It makes its nest on top of the hill, or in a big tree.\n\nIt catches rabbits, small nanny-goats or small bullocks, when it sees them.\n\nIt flies up to the top of the hill and takes the meat back to eat, and to feed its babies.",
+      "scientificName": "Aquila audax",
+      "callAudio": "files/audio/calls/23_Wedge-tailed_Eagle_(calling_overhead).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/irretye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/irretye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-irretye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/23_Wedge-tailed_Eagle_(calling_overhead).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/irretye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/irretye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#irrkerlantye",
+      "@type": "RepositoryObject",
+      "name": "irrkerlantye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Brown falcon",
+      "sentence": "Irrkerlantye anyente ikwele tnerle-anentye akngerre. Kere ikwerenheke apeke unthemele.\n\nKere ikwerenhe re areme, kelyawe apeke, ankerte apeke aw arlewatyerre apeke, athakwere arlke, re iparrpe akngerre kwene-irremele, antirrkwemele imarte arlkwemele.\n\nThipe irrpikwe renhe, re ite ultakeme. Thipe arrpenhe areye akenhe ikwere-ketye atere-irreme.\n\nRe antywe ikwerenhe arne antyerrkeke mpwareme irretyele arteke akine.\n",
+      "sentenceTranslation": "When the falcon flies it stands in one place in the sky. He’s looking down on the ground for a feed.\n\nIf he sees a lizard, or a cadney or a goanna or a mouse he flies down very quickly, snatches them and then eats them.\n\nIf it sees other birds it will break their neck. Other birds are frightened of it.\n\nIt makes its nest from dry sticks, like the eagle does.\n",
+      "scientificName": "Falco berigora",
+      "callAudio": "files/audio/calls/5_Brown_Falcon_(calling_near_nest).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/irrkerlantye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/irrkerlanyte.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-irrkerlantye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/5_Brown_Falcon_(calling_near_nest).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/irrkerlantye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/irrkerlanyte.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#kwerrkwerrke",
+      "@type": "RepositoryObject",
+      "name": "kwerrkwerrke",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "boobook",
+      "sentence": "Putyele intemele you awerle kwerrkwerrke angkerlenge, arne akertnenge.\n\nAmpe mape atere-irrentye akngerre. Ampe mapele aweme, itne arrangkewarreme. Meye itne-kenhe ileme, itne apeke arnterre-anthurre angkerlenge arlkerrirlenge arlke.\n\nMeyele ilem, ‘Ampe areyaye! Nterte-irraye! Arrantherre yanhe aweme? Arrantherre arle arnterre angkeme kwenhe, yanhe apetyeme. arrenhe-antherrenhe arlkwetyeke.’ Kele itne atere ankwe-irreme.\n\nKwerrkwerrkele kelyawe arlkweme, athakwere apmwe akweke, ante ingwele untentye akngerre mape. Ante anwerne kwerrkwerrke arlkwentye akngerre kwenye, kere anwerne- kenhe anetyakenhe.\n",
+      "sentenceTranslation": "When you sleep out in the bush you hear that boobook talking, up in the tree.\n\nChildren get very frightened. They hear that and they start crying. Their mother tells them off if they make too much noise or scream out.\n\nThe mother says, ‘Hey kids! Keep quiet! You hear that? You mob making too much noise, that’s why he’s coming. ‘You-know-who’ is coming to eat you mob!’ They get frightened and go to sleep.\n\nThe boobook eats lizards, mice, little snakes and things that go around in the night. And we don’t eat the boobook – it’s not our meat.",
+      "callAudio": "files/audio/calls/16_Southern_Boobook_(two_birds_calling).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-kwerrkwerrke.jpg"
+        },
+        {
+          "@id": "files/audio/calls/16_Southern_Boobook_(two_birds_calling).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#lperrpaye",
+      "@type": "RepositoryObject",
+      "name": "lperrpaye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "wood swallow",
+      "sentence": "Thipe lperrpaye mape unte aretyeke itnenhe kaperte thayete urrpele. Akwete-akwete apurte akwete arlkerele alherlenge.\n\nAtherrke tayme unte aretyeke. Atherrke akngerre-ntyele alkereke irrerlenge.\n\nApurte akwete, imarte alkereke irremele, awethe kene imarte ahelheke arrernelhemele.\n\nItne antywe itne-kenhe mpwareme arne antyerrke ulteke-arleke. Kwarte arlke ikwerenhe mpwareme.\n\nLperrpaye mape anwerne arlkwentye akngerre kwenye, kere anwerne-kenhe anetyakenhe.",
+      "sentenceTranslation": "You see the woodswallow has black on its face. They fly around in a group, again and again.\n\nYou see them in the green time after rain. They fly around where it is green.\n\nThey form a group and then fly around, then they all land together on the ground again.\n\nThey make their nests out of dry sticks. They make it for their eggs.\n\nWe never eat the woodswallows, they are not one of our meat foods.",
+      "scientificName": "Artamus cinereus, Artamus personatus",
+      "callAudio": "files/audio/calls/9_Black-faced_Woodswallow_(melanops)(alarm_and_trilling).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160707-02-lperrpaye-name.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160707-02-lperrpaye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-lperrpaye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/9_Black-faced_Woodswallow_(melanops)(alarm_and_trilling).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160707-02-lperrpaye-name.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160707-02-lperrpaye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#lyerre-lyerre",
+      "@type": "RepositoryObject",
+      "name": "lyerre-lyerre",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "wren",
+      "sentence": "Thipe lyerre-lyerre apele thipe akweke anthurre mape.\n\nPutye-werne alhemele you arerle arne akertneke atningke anthurre angkerremele anerrirrerlenge. Alkereke imarte irremele apurte akwete arne arrpenhe-werne anteme unterlenge.\n\nNtange itne ahelheke kutyemele arlkweme, merne itne-kenhe. Kwatyeke irrperreme, antywe itne mpwareme arne akertneke. Utnanthe ulteke-arleke aw antywe itne arneke-arleke, artetyerretyerr-kenhe- arteke akine.\n\nAnte anwerne lyerre-lyerre arlkwentye akngerre kwenye, kere anetyakenhe.\n",
+      "sentenceTranslation": "The variegated fairy wren is one of the small birds.\n\nWhen you go bush you see them up in the trees, a big mob of them all talking. Then they fly away in a group from one tree to another.\n\nThey eat grass seeds from the ground, that's their food. They gather near water, and they make nests up in the trees. They make their nests in the sides of the bushes, similar to the willy wagtail.\n\nWe never eat wrens, they are not meat for us.",
+      "scientificName": "Malurus lamberti",
+      "callAudio": "files/audio/calls/69_Variegated_Fairy-wren_(AM_-_song_at_dawn).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161115-02-lyerrelyerre-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/lyerrelyerre.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-wren-1_copy.JPG"
+        },
+        {
+          "@id": "files/audio/calls/69_Variegated_Fairy-wren_(AM_-_song_at_dawn).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161115-02-lyerrelyerre-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/lyerrelyerre.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#mekalhampwe",
+      "@type": "RepositoryObject",
+      "name": "mekalhampwe",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "cuckoo-shrike",
+      "sentence": "Thipe mekelhampwe, kaperte, thayete urrperle, tayele arlpentye akngerre.\n\nAntywe ikwerenhe mpwareme arne akngerre akertneke. Re itwerle anemele arerle anemele, itepe arrpe anenhe, ampe apeke apetyeme-ketye antywe ikwerenhe ultaketyeke.\n\nAntywe ikwerenhe re mpwareme arne, ngkweltye-ngkweltye mape-ngetyele ware. Arne mape aw manterre ngkweltye mape inemele. Thipe-kenhe ilpelhe-ngentyele inemele atyete mpwaremele kwarteke, ante thipe akweke ikwerenhe anetyeke.\n\nRenhe putyeke ware aretyeke, itne apmere itwewerne apetyentye akngerre kwenye.",
+      "sentenceTranslation": "The Black-faced cuckoo shrike has black around the eyes and a long tail.\n\nIt makes a nest in a big tree. It sits up near the nest, looking around everywhere, in case kids come too close and break its nest.\n\nIt gathers up bits of sticks for its nest and gathers bits of old material or bird feathers laying around to make the nest soft for its eggs and for the baby birds to sit in.\n\nYou only see them in the bush, they don't come close to houses.\n\n",
+      "scientificName": "Coracina novaehollandiae",
+      "callAudio": "files/audio/calls/36_Black-faced_Cuckoo-shrike(melanops)(churring_calls_-_interact.mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161108-02-mwekelampwe-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161108-02-mwekelampwe.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-mekalhampwe-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/36_Black-faced_Cuckoo-shrike(melanops)(churring_calls_-_interact.mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161108-02-mwekelampwe-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161108-02-mwekelampwe.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#mpernpe",
+      "@type": "RepositoryObject",
+      "name": "mpernpe",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Yellow throated miner",
+      "sentence": "Thipe mpernpe apele, thipe akweke. Kwerte-kwerte, atnerte kwene thayte mperlkere, ite kwene thayte mperlkere. Alknge urrperle. Alkngenge akertne thayte untarne- untarne, arrakerte untarne-untarne, ingke ikwerenhe untarne-untarne. Tayele arlpentye akngerre.\n\nRe tyape arlkweme, aw arne akweke arrpenhe mape alkerele alherlenge. Ntange itne arlkwentye akngerre mape arlke.\n\nAntywe itne mpwareme arne akertneke, kwarte arlke.\n\nAnwerne mpernpe arlkwentye akngerre kwenye. Kere anetyakenhe.\n",
+      "sentenceTranslation": "The yellow-throated miner is a small bird. It is grey, with white on the underneath of its belly, and under its neck. Its eye is black. Just above the eye is yellow its beak is yellow and its feet are yellow. It has a long tail.\n\nIt eats grubs, or any flying insects living around plants. It also eats different kinds of seeds.\n\nIt makes a nest up the tree, for its eggs.\n\nWe don't eat these birds, they are not our meat.\n\nBy Therese Ryder",
+      "scientificName": "Manorina flavigula",
+      "callAudio": "files/audio/calls/12_Yellow-throated_Miner_(wayensis)(various_calls_of_group).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/mpernpe-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20170221-03-edit-mpernpe.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-mpernpe-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/12_Yellow-throated_Miner_(wayensis)(various_calls_of_group).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/mpernpe-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20170221-03-edit-mpernpe.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#nturrerte",
+      "@type": "RepositoryObject",
+      "name": "nturrerte",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Spinifex pigeon",
+      "sentence": "Thipe nturrerte apele, unte aretyeke, apwerte akertneke. Apwerte aywerte-aywerte, nhenge-ulkereke.\n\nUntarne-untarne, inwenge mperlkere, urrperle intelhentye akerte, ante akaperte arrirlpe. Thipe akweke mwerre akngerre anthurre.\n\nApurte akwete itne, aywerte kwene-werne untheme. Apwerteke ware itne akwete itne-kenhe mpwareme. Aywerte kweneke apeke.\n\nTyerrtyele arlkweme kene nturrerte, pelkere-arteke akine.",
+      "sentenceTranslation": "The spinifex pigeon you will see up on the rock. It is from the spinifex covered hills.\n\nIt is an orange-yellow colour, with white on the chest with a black stripe, and a crest on its head. It is a beautiful small bird.\n\nThey run all together into the spinifex, they lay their eggs on the rocky ground, among the spinifex.\n\nPeople also eat spinifex pigeon, same like the crested pigeon.\n",
+      "scientificName": "Geophaps plumifera",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": {
+        "@id": "files/images/TR-nturrerte-1.jpg"
+      }
+    },
+    {
+      "@id": "#ntyerlpenye",
+      "@type": "RepositoryObject",
+      "name": "ntyerlpenye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Australasian Pipit",
+      "sentence": "Ntyerlpenye apele thipe ahelhe playne- arenye. Re antywe mpwareme, atherrke atnartengeke.\n\nKwarte apeke ikwerenhe aneme, ante ampe apeke, arelhe apeke apetyeme, re arne antyerrke akertnele anemele areme.\n\nTyerrtye apeke antywe ikwerenhe-warne apetyeme-ketye, kwarte ikwerenhe inetyeke.\n\nItne apeke anpere alheme, kele re ahelhe-werne atnarnpeme atnarnpemele unteme antywe ikwere-werne kwarte akertnele artepe anetyeke.\n\nRe arlkweme tyape aparre, ahelhe-arenye intelyapelyape akweke apeke, aw insect akweke mape. Tyerrtyele renhe arlkwentye akngerre kwenye.\n",
+      "sentenceTranslation": "The pipit belongs to the plain country. It makes his nest in amongst the green grass.\n\nWhen it’s got eggs in the nest, if a kid or a woman comes past its nest it flies up to a dry stick and sits down and watches them.\n\nIt makes sure that people don’t come near its nest and take its eggs.\n\nIf they go past it jumps down to the ground, jumps down and runs to its nest and sits on top of its eggs.\n\nIt eats a kind of caterpillar that lives in the ground,  and little butterflies maybe or little insects. But people don't eat pipits. \n\n",
+      "scientificName": "Anthus novaeseelandiae",
+      "callAudio": "files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-ntyerlpenye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#nyingke",
+      "@type": "RepositoryObject",
+      "name": "nyingke",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Zebra finch",
+      "sentence": "Nyingke mape aretyeke apmere putyeke. Atningke anthurre. Thipe akweke mape inwenge mperlkere, brown akweke ware, ulte kwenhe theyetele mperlkere dot akweke mape-akerte. Arrakerte ikwerenhe, akenhe, athetheke arle.\n\nDesert-werne apeke arle unte alheme, itne ngkwenge kwatye imerneme, kwatyeke apeke arrangkwe anerlenge. Itne ntange atherrkeke arleke aremele, arlkwentye-akngerre, ahelheke arlke kutyemele, kwatye arlke antywemele.\n\nItne antywe mpwareme arne akwekeke, aw atnyemeke apeke aw arlketyerreke apeke, untyeyeke arleke apeke, kwarte ikwerenhe arlke.\n\nNyingke, tyerrtye akngerre pate mapele arlkwetyarte. Anwerne arlkwentye akngerrentye, kere anwerne-kenhe.\n\n",
+      "sentenceTranslation": "You see zebra finches in the bush. Biggest mob. Its a small bird, white belly with a little bit of brown under the wings and lots of little white dots. It has a red beak.\n\nAnytime you go out bush they are around water, they can show you where the water is. You see them in the green time feeding in the bushes and on the ground, also around the water.\n\nThe birds make their nest in a little tree, or in the witchetty bush, the dead finish tree or the corkwood, for its eggs.\n\nAll the old people used to eat zebra finches. We ate them, they were our meat.\n\n",
+      "scientificName": "Taeniopygia guttata",
+      "callAudio": "files/audio/calls/15_Zebra_Finch_(flock_near_waterhole).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160512-nyinke-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160512-nyinke.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-nyinke-mape.jpg"
+        },
+        {
+          "@id": "files/audio/calls/15_Zebra_Finch_(flock_near_waterhole).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160512-nyinke-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160512-nyinke.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#parlkene",
+      "@type": "RepositoryObject",
+      "name": "parlkene",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "kingfisher",
+      "sentence": "Parlkene apele kookaburra arteke kene, rante-rante anthurre. Wale parlkene arle akweke ulkere arle.\n\nApmere tywerretye arenye arle. Kookaburra arteke kene, apmwe akweke arlkwentye akngerre kelyawe akweke arlke.\n\nLhere arnkeke alhwenge mpwareme antywe ikwerenhe mpwareme alhenge kweneke, kwarte ante thipe akweke ikwerenhe.\n\nAnwerne parlkene arlkwentye akngerre kwenye.\n",
+      "sentenceTranslation": "The kingfisher is like a kookaburra, it looks similar. But the kingfisher is smaller.\n\nIt lives in the open country. Like the kookaburra it eats small snakes and lizards.\n\nIt makes a hole in the bank of the creek and makes its nest inside the burrow, for its eggs and little baby birds.\n\nWe don't eat kingfishers.\n",
+      "scientificName": "Todiramphus pyrrhopygia",
+      "callAudio": "files/audio/calls/17_Red-backed_Kingfisher_('keeurp'_-_advertising_call).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161108-04-parlkene-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20161108-04-parlkene.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-parlkene-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/17_Red-backed_Kingfisher_('keeurp'_-_advertising_call).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161108-04-parlkene-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20161108-04-parlkene.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#pelkere",
+      "@type": "RepositoryObject",
+      "name": "pelkere",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Crested Pigeon",
+      "sentence": "Thipe pelkere.\nThe Crested Pidgeon.\nThipe pelkere apele untyeye-ke antywa mpwarentye-akngerre, kwarte ikwerenhe arlke.\nThe Crested Pidgeon makes its nest in the corkwood tree. for its eggs.\nPelkere-rele ntange arlkweme, atherrkeke,  ahelheke kwetyemele, ntange itne arlkwentye akngerre mape.",
+      "sentenceTranslation": "The Crested Pidgeon eats seeds from the grass, picking them up from the ground.\nPelkere kwenhe tyerrtye mapele arlkweme, kere anwerne-kenhe. Arrwekerlenye arle arlkwetyarte.\nPeople eat pidgeons it's our meat. Old people used to eat them in the past.",
+      "scientificName": "Ocyphaps lophotes",
+      "callAudio": "files/audio/calls/28_Crested_Pigeon_(courtship_-_'k-wooh'_repeated).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160331-01-apelkere-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160331-01-apelkere.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-pelkere-2.jpg"
+        },
+        {
+          "@id": "files/audio/calls/28_Crested_Pigeon_(courtship_-_'k-wooh'_repeated).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160331-01-apelkere-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160331-01-apelkere.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#teye-teye",
+      "@type": "RepositoryObject",
+      "name": "teye-teye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "peewee",
+      "sentence": "Thipe teye-teye.\nThipe teye-teye apele  unte aretyeke, mperlkere ante urrperle.\nArrpwere arteke kene, rarle akweke-ulkere arle.\nAntywe ilkwerenhe mpwareme, ahelhe-urrknge-ngentyele arne akertne anthurreke kwarte ikwerenhe arlke.\nRe tyape aperre ahelheke aremele arlkweme antelyapelyape akweke.\nKwatyeke re irrpeme, kwatye antyweme.\nThipe teye-teye kwenhe anwerne arlkwentye akngerre kwenye.\nAnwernekenhe kere anetyekenhe kwenhe re aneme.",
+      "sentenceTranslation": "Peewee.\nThe peewee bird, you see that it is black and white.\nIt is similar to the magpie, but it is a bit smaller.\nIt makes a nest ?from the ground high in a tree for its eggs.\nIt looks for caterpillars on the ground to eat, and for small butterflies.\nIt goes into the water and drinks.\nWe don't eat the peewee.\nIt is not one of our meat foods.",
+      "scientificName": "Grallina cyanoleuca",
+      "callAudio": "files/audio/calls/Magpie-lark_(cyanoleuca)(pair_duetting).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160707-teye-teye-name.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160707-teye-teye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-teyeteye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/Magpie-lark_(cyanoleuca)(pair_duetting).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160707-teye-teye-name.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160707-teye-teye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#tirre-tirre",
+      "@type": "RepositoryObject",
+      "name": "tirre-tirre",
+      "datePublished": "2016-06-20 04:35:22",
+      "translation": "bee-eater",
+      "sentence": "Tirre-tirre. Thipe lherele anentye akngerre, kwatye awenge itwerle. Re lhere arnkareke antywe ikwerenhe mpwareme, parlkenele arteke kene.\nRe peye arlkweme, aw arne akweke arkereke irrentye akngerre mape. Tyape akweke, ahelheke inemele re arlkweme, antelyapelyape akweke mape arlke.\nRenhe aretyeke intelhentye yelawe wan, pelewe arlke arrakerte urrperle, arrakerte arrirlpe. Tayle arlpentye.",
+      "sentenceTranslation": "Rainbow bee-eater. This bird lives along the river bed where there is water. It makes its nest in the creek bank, just like kingfishers do.\nIt eats bees, or anything that flies around. little grubs that it finds in the ground, it eats, and any little moths or butterflies.\nIt has many colours, yellow and blue. It has a long black beak and a long tail.",
+      "callAudio": "files/audio/calls/45_Rainbow_Bee-eater_(rapidly_repeated_'pip'_and_'prip').mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/tirre-tirre-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/tirre-tirre.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-beeeater.jpg"
+        },
+        {
+          "@id": "files/audio/calls/45_Rainbow_Bee-eater_(rapidly_repeated_'pip'_and_'prip').mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/tirre-tirre-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/tirre-tirre.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#tyewaketye",
+      "@type": "RepositoryObject",
+      "name": "tyewaketye",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "babbler",
+      "sentence": "Thipe tyawaketye apele urrperle ante mpwerlkere, urntane-urntane akweke.\n\nUnte itnenhenhe aretyeke, apurte akwete arlkerele alherlenge. Arne akertne werne atheke antyenemele walye mape akertneke, aternkemele, atheke-irremele, angkerremele.\n\nApurte akwete arne arrpenhe werne anteme arlkereke irremele.\n\nItne arlkweme tyape akweke, irrkngelhe kwene ante intelyapelyape akweke mape, ahelhe kwene arenge tyape akweke aperre mape. \n\nAnwerne tyewaketye arlkwentye akngerre kwenye. \n",
+      "sentenceTranslation": "The babbler is black and white with a bit of brown.\n\nYou see them always flying around in groups. They move around under the tree then they climb up the tree, jumping and rushing around talking.\n\nAll together in a group they fly to another tree.\n\nThey eat little grubs from under the bark of a tree, insects flying around under the tree and little grubs from under the ground.\n\nWe don’t eat the babbler bird.\n\nBy Therese Ryder",
+      "scientificName": "Pomatostomus temporalis",
+      "callAudio": "files/audio/calls/3_Grey-crowned_Babbler_(rubeculus)(group_at_nest).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20161108-03-tyawaketye-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/tyawaketye.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-tyewaketye-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/3_Grey-crowned_Babbler_(rubeculus)(group_at_nest).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20161108-03-tyawaketye-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/tyawaketye.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#urelyarre",
+      "@type": "RepositoryObject",
+      "name": "urelyarre",
+      "datePublished": "2016-06-20 04:38:56",
+      "translation": "dove",
+      "sentence": "Thipe urelyarre apele unte aretyeke, kwete-kwete, alknge iterele akenhe untane-untane arle. Urrperle akweke artepe ikwerenhele. Mperlkere akweke mape ilpelhe akertnel, arrakerte pelkere arteke kene.\n\nAntywe ikwerenhe re mpwareme atherrke-ngentyele ware, pelkerele arteke kene, kwarte arlke.\n\nRenhe angkerlenge unte awetyeke arntepe arteke kene.\n\nRe arlkweme ntange ahelheke aremele aw atherrkeke arlke.\n",
+      "sentenceTranslation": "You can see the diamond dove is a smoky grey colour and around its eye is a reddish colour. It is darker on its back. On the back of its wings you see a lot of white dots and its beak looks like the crested pigeon's.\n\nIt makes its nest from bits of grass like the crested pigeon does, for its eggs.\n\nIt makes a sound you can hear it, a bit like a peaceful dove.\n\nIt eats seeds that it finds on the ground and in the grass.\n\nBy Therese Ryder",
+      "scientificName": "Geopelia cuneata",
+      "callAudio": "files/audio/calls/13_Diamond_Dove_('coo-cooo-o-my-papa'_-_advertising).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/urelyarre-w.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/urelyarre.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-dove.jpg"
+        },
+        {
+          "@id": "files/audio/calls/13_Diamond_Dove_('coo-cooo-o-my-papa'_-_advertising).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/urelyarre-w.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/urelyarre.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#uringe",
+      "@type": "RepositoryObject",
+      "name": "uringe",
+      "datePublished": "2016-05-26 23:55:14",
+      "translation": "Tawny Frogmouth",
+      "sentence": "Thipe uringe. Uringe alengke anthurre iwelhentye akngerre, nhenge tyerrtyele apeke ampele apeke areme-ketye.\n\nArne akertnele em anerle, parrape aretye-akenhe anthurre ilelhemele. nhenge tyerrtye arle apeke ampele arlke areme-ketyenge.\n\nArne antyerrke arteke em anerle-anerle, akngelhetye-akenhe anthurre, nhenge tyerretyele arlke ampele arlke aretyekenhe anetyenhenge. Itne arne kwele aretyenhenge.\n",
+      "sentenceTranslation": "The tawny frogmouth is well camouflaged, so people and children can't see it.\n\nIt sits up in a tree and doesn't show itself and people and children can't notice it.\n\nIt sits there like a dry stick, not moving, so people and children can't see it. They think it's just a stick.\n",
+      "scientificName": "Podargus strigoides",
+      "callAudio": "files/audio/calls/Tawny_Frogmouth_('oo-oo'_repeated_many_times_-_adult).mp3",
+      "nameAudio": "files/audio/names/thipe-ayeye/20160707-03-uringe-name.mp3",
+      "sentenceAudio": "files/audio/sentences/thipe-ayeye/20160707-03-uringe-edit.mp3",
+      "pcdm:memberOf": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "hasPart": [
+        {
+          "@id": "files/images/TR-uringe-1.jpg"
+        },
+        {
+          "@id": "files/audio/calls/Tawny_Frogmouth_('oo-oo'_repeated_many_times_-_adult).mp3"
+        },
+        {
+          "@id": "files/audio/names/thipe-ayeye/20160707-03-uringe-name.mp3"
+        },
+        {
+          "@id": "files/audio/sentences/thipe-ayeye/20160707-03-uringe-edit.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "files/images/TR-akatwengatwenge-1.png",
+      "@type": "File",
+      "size": "947743",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#akatwengatwenge"
+      }
+    },
+    {
+      "@id": "files/audio/calls/24_Red-capped_Robin_(AM_-_song).mp3",
+      "@type": "File",
+      "size": "857894",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#akatwengatwenge"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161027-01-aktwengetwenge-w.mp3",
+      "@type": "File",
+      "size": "28800",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#akatwengatwenge"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161027-01-aktwengetwenge.mp3",
+      "@type": "File",
+      "size": "856704",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#akatwengatwenge"
+      }
+    },
+    {
+      "@id": "files/images/TR-alpwertekalpwerte.jpg",
+      "@type": "File",
+      "size": "314600",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#alpwertekalpwerte"
+      }
+    },
+    {
+      "@id": "files/audio/calls/95_Pied_Butcherbird_(song_at_daylight).mp3",
+      "@type": "File",
+      "size": "927902",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#alpwertekalpwerte"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161027-02-edit-alpwertekalpwerte-w.mp3",
+      "@type": "File",
+      "size": "32640",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#alpwertekalpwerte"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161027-02-edit-alpwertekalpwerte.mp3",
+      "@type": "File",
+      "size": "561408",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#alpwertekalpwerte"
+      }
+    },
+    {
+      "@id": "files/images/TR-angepe-1.jpg",
+      "@type": "File",
+      "size": "346469",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#angepe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/19_Little_Crow_(Adult_'uh'_-_several_calling).mp3",
+      "@type": "File",
+      "size": "950890",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#angepe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160707-04-angepe-edit-w.mp3",
+      "@type": "File",
+      "size": "13824",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#angepe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160707-04-angepe-edit.mp3",
+      "@type": "File",
+      "size": "2295393",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#angepe"
+      }
+    },
+    {
+      "@id": "files/images/TR-angkwene-1.jpg",
+      "@type": "File",
+      "size": "370529",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#angkwene"
+      }
+    },
+    {
+      "@id": "files/audio/calls/37_Major_Mitchell's_Cockatoo_(two_adults_calling).mp3",
+      "@type": "File",
+      "size": "718922",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#angkwene"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160707-05-angkwene-name.mp3",
+      "@type": "File",
+      "size": "63393",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#angkwene"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160707-05-angkwene-edit.mp3",
+      "@type": "File",
+      "size": "761856",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#angkwene"
+      }
+    },
+    {
+      "@id": "files/images/TR-arleye-1.jpg",
+      "@type": "File",
+      "size": "439584",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#arleye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/42_Emu_(deep_grunts_and_drumming).mp3",
+      "@type": "File",
+      "size": "632196",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#arleye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160331-02-arleye-w.mp3",
+      "@type": "File",
+      "size": "28800",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#arleye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160331-02-arleye.mp3",
+      "@type": "File",
+      "size": "988032",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#arleye"
+      }
+    },
+    {
+      "@id": "files/images/TR-arlpatye-1.jpg",
+      "@type": "File",
+      "size": "409198",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#arlpatye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/10_Australian_Ringneck_(call_while_perched_and_flying).mp3",
+      "@type": "File",
+      "size": "577861",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#arlpatye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160512-arlpatye-w.mp3",
+      "@type": "File",
+      "size": "28416",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#arlpatye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160512-arlpatye.mp3",
+      "@type": "File",
+      "size": "652032",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#arlpatye"
+      }
+    },
+    {
+      "@id": "files/images/TR-arrewelkere-1.jpg",
+      "@type": "File",
+      "size": "362408",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#arrewelkere"
+      }
+    },
+    {
+      "@id": "files/audio/calls/Cockatiel_(calls_-_perched).mp3",
+      "@type": "File",
+      "size": "653094",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#arrewelkere"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160512-arreweyelkere_315_1990.mp3",
+      "@type": "File",
+      "size": "70113",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#arrewelkere"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160512-arreweyelkere_2911_58083.mp3",
+      "@type": "File",
+      "size": "2208993",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#arrewelkere"
+      }
+    },
+    {
+      "@id": "files/images/TR-rrpwere-2.jpg",
+      "@type": "File",
+      "size": "365647",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#arrpwere"
+      }
+    },
+    {
+      "@id": "files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3",
+      "@type": "File",
+      "size": "848490",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#arrpwere"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3",
+      "@type": "File",
+      "size": "26496",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#arrpwere"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3",
+      "@type": "File",
+      "size": "908160",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#arrpwere"
+      }
+    },
+    {
+      "@id": "files/images/artapwe-artapwe-black-kite.jpg",
+      "@type": "File",
+      "size": "206078",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#artapwe-artapwe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/27_Black_Kite_(adult_-_trill-whistle)).mp3",
+      "@type": "File",
+      "size": "1027167",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#artapwe-artapwe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161108-01-artapwe-artapwe-w.mp3",
+      "@type": "File",
+      "size": "23424",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#artapwe-artapwe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161108-01-artapwe-artapwe.mp3",
+      "@type": "File",
+      "size": "684288",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#artapwe-artapwe"
+      }
+    },
+    {
+      "@id": "files/images/TR-artetyerretyerr-1.jpg",
+      "@type": "File",
+      "size": "331235",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#artetyerretyerr"
+      }
+    },
+    {
+      "@id": "files/audio/calls/18_Willie_Wagtail_(leucophrys)(song___chitter).mp3",
+      "@type": "File",
+      "size": "1080457",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#artetyerretyerr"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160407-artetyerretyerre-w.mp3",
+      "@type": "File",
+      "size": "34176",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#artetyerretyerr"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160407-artetyerretyerre.mp3",
+      "@type": "File",
+      "size": "1039872",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#artetyerretyerr"
+      }
+    },
+    {
+      "@id": "files/images/TR-artewe-1.jpg",
+      "@type": "File",
+      "size": "337575",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#artewe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/4_Australian_Bustard_('huff'_and_roar).mp3",
+      "@type": "File",
+      "size": "814008",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#artewe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160331-04-artewe-w.mp3",
+      "@type": "File",
+      "size": "21888",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#artewe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160331-04-artewe.mp3",
+      "@type": "File",
+      "size": "930816",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#artewe"
+      }
+    },
+    {
+      "@id": "files/images/TR-atetherre-1.jpg",
+      "@type": "File",
+      "size": "358866",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#atetherre"
+      }
+    },
+    {
+      "@id": "files/audio/calls/31_Budgerigar_(small_flock_perched).mp3",
+      "@type": "File",
+      "size": "806694",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#atetherre"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20151124-01-atetherr-w.mp3",
+      "@type": "File",
+      "size": "24192",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#atetherre"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20151124-01-atetherr.mp3",
+      "@type": "File",
+      "size": "800256",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#atetherre"
+      }
+    },
+    {
+      "@id": "files/images/TR-ilentye-1.jpg",
+      "@type": "File",
+      "size": "378023",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#ilentye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/40_Galah_(several_calling).mp3",
+      "@type": "File",
+      "size": "980147",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#ilentye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20151126-01-ilentye-w.mp3",
+      "@type": "File",
+      "size": "38784",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#ilentye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20151126-01-ilentye.mp3",
+      "@type": "File",
+      "size": "1300608",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#ilentye"
+      }
+    },
+    {
+      "@id": "files/images/TR-irrarnte-1.jpg",
+      "@type": "File",
+      "size": "298259",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#irrarnte"
+      }
+    },
+    {
+      "@id": "files/audio/calls/38_Red-tailed_Black-Cockatoo_(adults_and_juveniles).mp3",
+      "@type": "File",
+      "size": "1221518",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#irrarnte"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160407-irrarnte-w.mp3",
+      "@type": "File",
+      "size": "25728",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#irrarnte"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160407-irrarnte.mp3",
+      "@type": "File",
+      "size": "821760",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#irrarnte"
+      }
+    },
+    {
+      "@id": "files/images/TR-irretye-1.jpg",
+      "@type": "File",
+      "size": "349882",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#irretye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/23_Wedge-tailed_Eagle_(calling_overhead).mp3",
+      "@type": "File",
+      "size": "1043886",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#irretye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/irretye-w.mp3",
+      "@type": "File",
+      "size": "59553",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#irretye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/irretye.mp3",
+      "@type": "File",
+      "size": "1381473",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#irretye"
+      }
+    },
+    {
+      "@id": "files/images/TR-irrkerlantye-1.jpg",
+      "@type": "File",
+      "size": "361932",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#irrkerlantye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/5_Brown_Falcon_(calling_near_nest).mp3",
+      "@type": "File",
+      "size": "805649",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#irrkerlantye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/irrkerlantye-w.mp3",
+      "@type": "File",
+      "size": "43776",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#irrkerlantye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/irrkerlanyte.mp3",
+      "@type": "File",
+      "size": "671616",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#irrkerlantye"
+      }
+    },
+    {
+      "@id": "files/images/TR-kwerrkwerrke.jpg",
+      "@type": "File",
+      "size": "97407",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#kwerrkwerrke"
+      }
+    },
+    {
+      "@id": "files/audio/calls/16_Southern_Boobook_(two_birds_calling).mp3",
+      "@type": "File",
+      "size": "861029",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#kwerrkwerrke"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke-w.mp3",
+      "@type": "File",
+      "size": "27648",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#kwerrkwerrke"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161101-01-02-edit-kwerrkekwerrke.mp3",
+      "@type": "File",
+      "size": "973056",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#kwerrkwerrke"
+      }
+    },
+    {
+      "@id": "files/images/TR-lperrpaye-1.jpg",
+      "@type": "File",
+      "size": "347567",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#lperrpaye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/9_Black-faced_Woodswallow_(melanops)(alarm_and_trilling).mp3",
+      "@type": "File",
+      "size": "948800",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#lperrpaye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160707-02-lperrpaye-name.mp3",
+      "@type": "File",
+      "size": "73953",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#lperrpaye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160707-02-lperrpaye.mp3",
+      "@type": "File",
+      "size": "2855073",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#lperrpaye"
+      }
+    },
+    {
+      "@id": "files/images/TR-wren-1_copy.JPG",
+      "@type": "File",
+      "size": "261971",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#lyerre-lyerre"
+      }
+    },
+    {
+      "@id": "files/audio/calls/69_Variegated_Fairy-wren_(AM_-_song_at_dawn).mp3",
+      "@type": "File",
+      "size": "888196",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#lyerre-lyerre"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161115-02-lyerrelyerre-w.mp3",
+      "@type": "File",
+      "size": "22272",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#lyerre-lyerre"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/lyerrelyerre.mp3",
+      "@type": "File",
+      "size": "749184",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#lyerre-lyerre"
+      }
+    },
+    {
+      "@id": "files/images/TR-mekalhampwe-1.jpg",
+      "@type": "File",
+      "size": "399165",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#mekalhampwe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/36_Black-faced_Cuckoo-shrike(melanops)(churring_calls_-_interact.mp3",
+      "@type": "File",
+      "size": "772212",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#mekalhampwe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161108-02-mwekelampwe-w.mp3",
+      "@type": "File",
+      "size": "32640",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#mekalhampwe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161108-02-mwekelampwe.mp3",
+      "@type": "File",
+      "size": "796416",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#mekalhampwe"
+      }
+    },
+    {
+      "@id": "files/images/TR-mpernpe-1.jpg",
+      "@type": "File",
+      "size": "481612",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#mpernpe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/12_Yellow-throated_Miner_(wayensis)(various_calls_of_group).mp3",
+      "@type": "File",
+      "size": "993731",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#mpernpe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/mpernpe-w.mp3",
+      "@type": "File",
+      "size": "18432",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#mpernpe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20170221-03-edit-mpernpe.mp3",
+      "@type": "File",
+      "size": "679680",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#mpernpe"
+      }
+    },
+    {
+      "@id": "files/images/TR-nturrerte-1.jpg",
+      "@type": "File",
+      "size": "416037",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#nturrerte"
+      }
+    },
+    {
+      "@id": "files/images/TR-ntyerlpenye-1.jpg",
+      "@type": "File",
+      "size": "382663",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#ntyerlpenye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3",
+      "@type": "File",
+      "size": "970743",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#ntyerlpenye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3",
+      "@type": "File",
+      "size": "33792",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#ntyerlpenye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3",
+      "@type": "File",
+      "size": "2911713",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#ntyerlpenye"
+      }
+    },
+    {
+      "@id": "files/images/TR-nyinke-mape.jpg",
+      "@type": "File",
+      "size": "386247",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#nyingke"
+      }
+    },
+    {
+      "@id": "files/audio/calls/15_Zebra_Finch_(flock_near_waterhole).mp3",
+      "@type": "File",
+      "size": "705339",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#nyingke"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160512-nyinke-w.mp3",
+      "@type": "File",
+      "size": "25728",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#nyingke"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160512-nyinke.mp3",
+      "@type": "File",
+      "size": "981504",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#nyingke"
+      }
+    },
+    {
+      "@id": "files/images/TR-parlkene-1.jpg",
+      "@type": "File",
+      "size": "331865",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#parlkene"
+      }
+    },
+    {
+      "@id": "files/audio/calls/17_Red-backed_Kingfisher_('keeurp'_-_advertising_call).mp3",
+      "@type": "File",
+      "size": "1106580",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#parlkene"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161108-04-parlkene-w.mp3",
+      "@type": "File",
+      "size": "23808",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#parlkene"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20161108-04-parlkene.mp3",
+      "@type": "File",
+      "size": "546432",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#parlkene"
+      }
+    },
+    {
+      "@id": "files/images/TR-pelkere-2.jpg",
+      "@type": "File",
+      "size": "396050",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#pelkere"
+      }
+    },
+    {
+      "@id": "files/audio/calls/28_Crested_Pigeon_(courtship_-_'k-wooh'_repeated).mp3",
+      "@type": "File",
+      "size": "797290",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#pelkere"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160331-01-apelkere-w.mp3",
+      "@type": "File",
+      "size": "29568",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#pelkere"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160331-01-apelkere.mp3",
+      "@type": "File",
+      "size": "448512",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#pelkere"
+      }
+    },
+    {
+      "@id": "files/images/TR-teyeteye-1.jpg",
+      "@type": "File",
+      "size": "347552",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#teye-teye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/Magpie-lark_(cyanoleuca)(pair_duetting).mp3",
+      "@type": "File",
+      "size": "785796",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#teye-teye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160707-teye-teye-name.mp3",
+      "@type": "File",
+      "size": "31713",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#teye-teye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160707-teye-teye.mp3",
+      "@type": "File",
+      "size": "1560993",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#teye-teye"
+      }
+    },
+    {
+      "@id": "files/images/TR-beeeater.jpg",
+      "@type": "File",
+      "size": "378220",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#tirre-tirre"
+      }
+    },
+    {
+      "@id": "files/audio/calls/45_Rainbow_Bee-eater_(rapidly_repeated_'pip'_and_'prip').mp3",
+      "@type": "File",
+      "size": "812963",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#tirre-tirre"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/tirre-tirre-w.mp3",
+      "@type": "File",
+      "size": "33024",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#tirre-tirre"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/tirre-tirre.mp3",
+      "@type": "File",
+      "size": "564480",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#tirre-tirre"
+      }
+    },
+    {
+      "@id": "files/images/TR-tyewaketye-1.jpg",
+      "@type": "File",
+      "size": "405872",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#tyewaketye"
+      }
+    },
+    {
+      "@id": "files/audio/calls/3_Grey-crowned_Babbler_(rubeculus)(group_at_nest).mp3",
+      "@type": "File",
+      "size": "586220",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#tyewaketye"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20161108-03-tyawaketye-w.mp3",
+      "@type": "File",
+      "size": "26880",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#tyewaketye"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/tyawaketye.mp3",
+      "@type": "File",
+      "size": "638208",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#tyewaketye"
+      }
+    },
+    {
+      "@id": "files/images/TR-dove.jpg",
+      "@type": "File",
+      "size": "416254",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#urelyarre"
+      }
+    },
+    {
+      "@id": "files/audio/calls/13_Diamond_Dove_('coo-cooo-o-my-papa'_-_advertising).mp3",
+      "@type": "File",
+      "size": "1062694",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#urelyarre"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/urelyarre-w.mp3",
+      "@type": "File",
+      "size": "28800",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#urelyarre"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/urelyarre.mp3",
+      "@type": "File",
+      "size": "587904",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#urelyarre"
+      }
+    },
+    {
+      "@id": "files/images/TR-uringe-1.jpg",
+      "@type": "File",
+      "size": "330078",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#uringe"
+      }
+    },
+    {
+      "@id": "files/audio/calls/Tawny_Frogmouth_('oo-oo'_repeated_many_times_-_adult).mp3",
+      "@type": "File",
+      "size": "1109714",
+      "fileLabel": "Call audio",
+      "isPartOf": {
+        "@id": "#uringe"
+      }
+    },
+    {
+      "@id": "files/audio/names/thipe-ayeye/20160707-03-uringe-name.mp3",
+      "@type": "File",
+      "size": "57633",
+      "fileLabel": "Name audio",
+      "isPartOf": {
+        "@id": "#uringe"
+      }
+    },
+    {
+      "@id": "files/audio/sentences/thipe-ayeye/20160707-03-uringe-edit.mp3",
+      "@type": "File",
+      "size": "1453473",
+      "fileLabel": "Sentence audio",
+      "isPartOf": {
+        "@id": "#uringe"
+      }
+    },
+    {
+      "@id": "files/images/grass.jpg",
+      "@type": "File",
+      "size": "83066",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#atherrke"
+      }
+    },
+    {
+      "@id": "files/images/220px-Acacia_kempeana_shrub.jpg",
+      "@type": "File",
+      "size": "12623",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#atnyeme"
+      }
+    },
+    {
+      "@id": "files/images/atwakeye-flowers.jpg",
+      "@type": "File",
+      "size": "402744",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#atwakeye"
+      }
+    },
+    {
+      "@id": "files/images/spinifex.jpg",
+      "@type": "File",
+      "size": "185151",
+      "fileLabel": "Image",
+      "isPartOf": {
+        "@id": "#aywerte"
+      }
+    },
+    {
+      "@id": "#tr",
+      "name": "Therese Ryder",
+      "description": "artwork by Therese Ryder",
+      "@type": "Thing"
+    },
+    {
+      "@id": "arcp://name,custom/terms#callAudio",
+      "@type": "rdf:Property",
+      "name": "callAudio",
+      "description": "the call audio file associated with this entry"
+    },
+    {
+      "@id": "arcp://name,custom/terms#nameAudio",
+      "@type": "rdf:Property",
+      "name": "nameAudio",
+      "description": "the name audio file associated with this entry"
+    },
+    {
+      "@id": "arcp://name,custom/terms#sentenceAudio",
+      "@type": "rdf:Property",
+      "name": "sentenceAudio",
+      "description": "the sentence audio file associated with this entry"
+    }
+  ]
+}

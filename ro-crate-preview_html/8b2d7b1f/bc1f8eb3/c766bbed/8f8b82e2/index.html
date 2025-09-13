@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -35,14 +34,34 @@
             }
         }
 
-        .home-link {
-            float: left;
-            margin-top: -10px;
-        }
-
-        .page-title {
-            text-align: center;
+        .page-header-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
             background-color: black;
+            padding: 0.5em 1em;
+        }
+        .home-link {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .page-title {
+            flex: 1 1 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .page-title-audio {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.5em;
+        }
+        .page-title-text {
+            text-align: center;
             color: white;
             font-weight: normal;
             padding: 1em;
@@ -51,7 +70,6 @@
         .feature-image,
         .feature-audio {
             text-align: center;
-            margin: 1em;
         }
         .feature-image img {
             max-width: 100%;
@@ -80,7 +98,62 @@
             font-style: italic;
             color: #555;
         }
+        /* AUDIO PLAYER */
+        .audio-play-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            outline: none;
+            transition: transform 0.1s;
+        }
+        .audio-play-btn:active {
+            transform: scale(0.95);
+        }
+        .audio-play-btn.playing svg circle {
+            fill: #1976d2;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: max(100px) 1fr;
+        }
+        .left {
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .right {
+            min-width: 0;
+            margin: 1em 0;
+        }
+        .v-space-1em {
+            margin: 1em 0;
+        }
     </style>
+    <script>
+        // Pause all other audio when one is played
+        document.addEventListener('play', function(e){
+            var audios = document.querySelectorAll('audio');
+            audios.forEach(function(audio){
+                if(audio !== e.target){
+                    audio.pause();
+                    if(audio.previousElementSibling && audio.previousElementSibling.classList)
+                        audio.previousElementSibling.classList.remove('playing');
+                }
+            });
+        }, true);
+        // Remove playing class when audio ends
+        document.addEventListener('ended', function(e){
+            if(e.target.previousElementSibling && e.target.previousElementSibling.classList)
+                e.target.previousElementSibling.classList.remove('playing');
+        }, true);
+    </script>
+
 </head>
 
 
@@ -126,12 +199,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <!-- Heading Section -->
 <div id="#arrpwere" class="main-container root">
-    <div class = "entity-header-row">
-        <!-- Title -->
-        <h2 class="page-title">
-            <!-- Navigation -->
+    <div class="page-header-row">
+        <!-- Navigation -->
+        <div class="home-link">
               
     <div class="home-link">
         <a href="../../../../../ro-crate-preview.html" class="root">
@@ -144,10 +226,26 @@
         </a>
     </div>
 
+        </div>
+        <!-- Title -->
+        <div class="page-title">
             
-                arrpwere
+                <div class="page-title-audio">
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3" type="audio/mpeg">
+        </audio>
+    
+</div>
+                <h2 class="page-title-text">arrpwere</h2>
             
-        </h2>
+        </div>
     </div>
 
     <!-- Properties section -->
@@ -155,11 +253,27 @@
         
         
         <script>
-            console.log('item.props:', {"http://schema.org/name":{"fwd":[{"value":"arrpwere","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"name","url":"http://schema.org/name"},"http://schema.org/datePublished":{"fwd":[{"value":"2016-05-26 23:55:14","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"datePublished","url":"http://schema.org/datePublished"},"translation":{"fwd":[{"value":"magpie","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"translation","url":null},"sentence":{"fwd":[{"value":"Thipe arrpwere apele urrperle ante mperlkere. Thipe teye-teye-arteke kene renhe aretyeke, rarle akngerre-ulkere arle.\n\nArne akngerre akertneke renhe arerle-anerlenge. Angkerlenge renhe awetyeke, angkentye mwerre akngerre anthurre. Putyele apeke intemele you renhe awerle ingweleme anthurre angkerlenge.\n\nAhelhele alherlenge renhe arerle, apmwe akwekeke apeke, aw tyape akweke arne kwene-arenyeke apeke, arlkwetyenhenge. Itne antywe itne-kenhe mpwareme apere ulte kweneke, kwarte ikwerenhe arlke.\n\nThipe arrpwere anwerne arlkwentye akngerre kwenye, kere anwerne- kenhe anetyakenhe arle re.\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentence","url":null},"sentenceTranslation":{"fwd":[{"value":"The magpie is black and white. He looks like the magpie-lark, but is a bit bigger.\n\nYou see him sitting up in a big tree. When he sings he makes a lovely sound. When you're out in the bush you hear them singing early in the morning.\n\nWhen he walks around on the ground he is looking for grubs in logs, or little snakes, for food to eat. These birds make nests in the hollows of gumtrees and that’s where they lay their eggs.\n\nWe don't eat him, he's not our meat.\n\n\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceTranslation","url":null},"scientificName":{"fwd":[{"value":"Cracticus tibicen","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"scientificName","url":null},"http://pcdm.org/models#memberOf":{"fwd":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"rev":[],"label":"pcdm:memberOf","url":"http://pcdm.org/models#memberOf"},"http://schema.org/license":{"fwd":[{"value":"","target_id":"","target_name":"","url":"https://creativecommons.org/licenses/by/4.0/","local_url":""}],"rev":[],"label":"license","url":"http://schema.org/license"},"http://schema.org/hasPart":{"fwd":[{"value":"","target_id":"files/images/TR-rrpwere-2.jpg","target_name":"files/images/TR-rrpwere-2.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/names/ayeye-thipe-akerte/20160510-rrpwere-edit-w.mp3","target_name":"files/audio/names/ayeye-thipe-akerte/20160510-rrpwere-edit-w.mp3","url":"","local_url":""}],"rev":[],"label":"hasPart","url":"http://schema.org/hasPart"},"http://pcdm.org/models#hasMember":{"fwd":[],"rev":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"label":"pcdm:hasMember","url":"http://pcdm.org/models#hasMember"},"http://schema.org/isPartOf":{"fwd":[],"rev":[{"value":"","target_id":"files/images/TR-rrpwere-2.jpg","target_name":"files/images/TR-rrpwere-2.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/names/ayeye-thipe-akerte/20160510-rrpwere-edit-w.mp3","target_name":"files/audio/names/ayeye-thipe-akerte/20160510-rrpwere-edit-w.mp3","url":"","local_url":""}],"label":"isPartOf","url":"http://schema.org/isPartOf"}});
+            console.log('item.props:', {"http://schema.org/name":{"fwd":[{"value":"arrpwere","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"name","url":"http://schema.org/name"},"http://schema.org/datePublished":{"fwd":[{"value":"2016-05-26 23:55:14","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"datePublished","url":"http://schema.org/datePublished"},"translation":{"fwd":[{"value":"magpie","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"translation","url":null},"sentence":{"fwd":[{"value":"Thipe arrpwere apele urrperle ante mperlkere. Thipe teye-teye-arteke kene renhe aretyeke, rarle akngerre-ulkere arle.\n\nArne akngerre akertneke renhe arerle-anerlenge. Angkerlenge renhe awetyeke, angkentye mwerre akngerre anthurre. Putyele apeke intemele you renhe awerle ingweleme anthurre angkerlenge.\n\nAhelhele alherlenge renhe arerle, apmwe akwekeke apeke, aw tyape akweke arne kwene-arenyeke apeke, arlkwetyenhenge. Itne antywe itne-kenhe mpwareme apere ulte kweneke, kwarte ikwerenhe arlke.\n\nThipe arrpwere anwerne arlkwentye akngerre kwenye, kere anwerne- kenhe anetyakenhe arle re.\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentence","url":null},"sentenceTranslation":{"fwd":[{"value":"The magpie is black and white. He looks like the magpie-lark, but is a bit bigger.\n\nYou see him sitting up in a big tree. When he sings he makes a lovely sound. When you're out in the bush you hear them singing early in the morning.\n\nWhen he walks around on the ground he is looking for grubs in logs, or little snakes, for food to eat. These birds make nests in the hollows of gumtrees and that’s where they lay their eggs.\n\nWe don't eat him, he's not our meat.\n\n\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceTranslation","url":null},"scientificName":{"fwd":[{"value":"Cracticus tibicen","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"scientificName","url":null},"callAudio":{"fwd":[{"value":"files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"callAudio","url":null},"nameAudio":{"fwd":[{"value":"files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"nameAudio","url":null},"sentenceAudio":{"fwd":[{"value":"files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceAudio","url":null},"http://pcdm.org/models#memberOf":{"fwd":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"rev":[],"label":"pcdm:memberOf","url":"http://pcdm.org/models#memberOf"},"http://schema.org/license":{"fwd":[{"value":"","target_id":"","target_name":"","url":"https://creativecommons.org/licenses/by/4.0/","local_url":""}],"rev":[],"label":"license","url":"http://schema.org/license"},"http://schema.org/hasPart":{"fwd":[{"value":"","target_id":"files/images/TR-rrpwere-2.jpg","target_name":"files/images/TR-rrpwere-2.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3","target_name":"files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3","target_name":"files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3","target_name":"files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3","url":"","local_url":""}],"rev":[],"label":"hasPart","url":"http://schema.org/hasPart"},"http://pcdm.org/models#hasMember":{"fwd":[],"rev":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"label":"pcdm:hasMember","url":"http://pcdm.org/models#hasMember"},"http://schema.org/isPartOf":{"fwd":[],"rev":[{"value":"","target_id":"files/images/TR-rrpwere-2.jpg","target_name":"files/images/TR-rrpwere-2.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3","target_name":"files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3","target_name":"files/audio/names/thipe-ayeye/20160510-rrpwere-edit-w.mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3","target_name":"files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3","url":"","local_url":""}],"label":"isPartOf","url":"http://schema.org/isPartOf"}});
         </script>
 
-        <div class="feature-image">
-            
+        <div class="grid feature-image v-space-1em">
+            <div class="left">
+                
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/calls/7_Australian_Magpie_(terraereginae)(song___alarm).mp3" type="audio/mpeg">
+        </audio>
+    
+
+            </div>
+            <div class="right">
+                
     
         <div class="has-part-list">
             
@@ -171,40 +285,44 @@
             
                 
             
-        </div>
-    
-
-        </div>
-        <div class="feature-audio">
-            
-    
-        <div class="has-part-list">
+                
             
                 
-
-            
-                    
-                    <div class="has-part-item">
-                        <audio controls>
-                            <source src="../../../../../files/audio/names/ayeye-thipe-akerte/20160510-rrpwere-edit-w.mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
-                
-
             
         </div>
     
 
+            </div>
         </div>
-        <p>
-            magpie
-            <br />
-            <span class="linnaean-name">
-                Cracticus tibicen
-            </span>
-        </p>
-        <p>
-            Thipe arrpwere apele urrperle ante mperlkere. Thipe teye-teye-arteke kene renhe aretyeke, rarle akngerre-ulkere arle.
+
+        <div class="grid">
+            <div class="left"></div>
+            <div class="right">
+                <p>
+                magpie
+                </p>
+                <p class="linnaean-name">
+                    Cracticus tibicen
+                </p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="left">
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/sentences/thipe-ayeye/20160510-rrpwere-edit.mp3" type="audio/mpeg">
+        </audio>
+    
+</div>
+            <div class="right">
+                Thipe arrpwere apele urrperle ante mperlkere. Thipe teye-teye-arteke kene renhe aretyeke, rarle akngerre-ulkere arle.
 
 Arne akngerre akertneke renhe arerle-anerlenge. Angkerlenge renhe awetyeke, angkentye mwerre akngerre anthurre. Putyele apeke intemele you renhe awerle ingweleme anthurre angkerlenge.
 
@@ -212,9 +330,13 @@ Ahelhele alherlenge renhe arerle, apmwe akwekeke apeke, aw tyape akweke arne kwe
 
 Thipe arrpwere anwerne arlkwentye akngerre kwenye, kere anwerne- kenhe anetyakenhe arle re.
 
-        </p>
-        <p class="translation">
-            The magpie is black and white. He looks like the magpie-lark, but is a bit bigger.
+            </div>
+        </div>
+        <div class="grid">
+            <div class="left"></div>
+            <div class="right">
+                <span class="translation">
+                    The magpie is black and white. He looks like the magpie-lark, but is a bit bigger.
 
 You see him sitting up in a big tree. When he sings he makes a lovely sound. When you&#39;re out in the bush you hear them singing early in the morning.
 
@@ -224,12 +346,13 @@ We don&#39;t eat him, he&#39;s not our meat.
 
 
 
-        </p>
+                </span>
+            </div>
+        </div>
 
 
     </div>
 </div>
-
 
 
 

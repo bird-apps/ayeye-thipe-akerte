@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -35,14 +34,34 @@
             }
         }
 
-        .home-link {
-            float: left;
-            margin-top: -10px;
-        }
-
-        .page-title {
-            text-align: center;
+        .page-header-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
             background-color: black;
+            padding: 0.5em 1em;
+        }
+        .home-link {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .page-title {
+            flex: 1 1 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .page-title-audio {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.5em;
+        }
+        .page-title-text {
+            text-align: center;
             color: white;
             font-weight: normal;
             padding: 1em;
@@ -51,7 +70,6 @@
         .feature-image,
         .feature-audio {
             text-align: center;
-            margin: 1em;
         }
         .feature-image img {
             max-width: 100%;
@@ -80,7 +98,62 @@
             font-style: italic;
             color: #555;
         }
+        /* AUDIO PLAYER */
+        .audio-play-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            outline: none;
+            transition: transform 0.1s;
+        }
+        .audio-play-btn:active {
+            transform: scale(0.95);
+        }
+        .audio-play-btn.playing svg circle {
+            fill: #1976d2;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: max(100px) 1fr;
+        }
+        .left {
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .right {
+            min-width: 0;
+            margin: 1em 0;
+        }
+        .v-space-1em {
+            margin: 1em 0;
+        }
     </style>
+    <script>
+        // Pause all other audio when one is played
+        document.addEventListener('play', function(e){
+            var audios = document.querySelectorAll('audio');
+            audios.forEach(function(audio){
+                if(audio !== e.target){
+                    audio.pause();
+                    if(audio.previousElementSibling && audio.previousElementSibling.classList)
+                        audio.previousElementSibling.classList.remove('playing');
+                }
+            });
+        }, true);
+        // Remove playing class when audio ends
+        document.addEventListener('ended', function(e){
+            if(e.target.previousElementSibling && e.target.previousElementSibling.classList)
+                e.target.previousElementSibling.classList.remove('playing');
+        }, true);
+    </script>
+
 </head>
 
 
@@ -126,12 +199,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <!-- Heading Section -->
 <div id="#ntyerlpenye" class="main-container root">
-    <div class = "entity-header-row">
-        <!-- Title -->
-        <h2 class="page-title">
-            <!-- Navigation -->
+    <div class="page-header-row">
+        <!-- Navigation -->
+        <div class="home-link">
               
     <div class="home-link">
         <a href="../../../../../ro-crate-preview.html" class="root">
@@ -144,10 +226,26 @@
         </a>
     </div>
 
+        </div>
+        <!-- Title -->
+        <div class="page-title">
             
-                ntyerlpenye
+                <div class="page-title-audio">
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3" type="audio/mpeg">
+        </audio>
+    
+</div>
+                <h2 class="page-title-text">ntyerlpenye</h2>
             
-        </h2>
+        </div>
     </div>
 
     <!-- Properties section -->
@@ -155,11 +253,27 @@
         
         
         <script>
-            console.log('item.props:', {"http://schema.org/name":{"fwd":[{"value":"ntyerlpenye","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"name","url":"http://schema.org/name"},"http://schema.org/datePublished":{"fwd":[{"value":"2016-05-26 23:55:14","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"datePublished","url":"http://schema.org/datePublished"},"translation":{"fwd":[{"value":"Australasian Pipit","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"translation","url":null},"sentence":{"fwd":[{"value":"Ntyerlpenye apele thipe ahelhe playne- arenye. Re antywe mpwareme, atherrke atnartengeke.\n\nKwarte apeke ikwerenhe aneme, ante ampe apeke, arelhe apeke apetyeme, re arne antyerrke akertnele anemele areme.\n\nTyerrtye apeke antywe ikwerenhe-warne apetyeme-ketye, kwarte ikwerenhe inetyeke.\n\nItne apeke anpere alheme, kele re ahelhe-werne atnarnpeme atnarnpemele unteme antywe ikwere-werne kwarte akertnele artepe anetyeke.\n\nRe arlkweme tyape aparre, ahelhe-arenye intelyapelyape akweke apeke, aw insect akweke mape. Tyerrtyele renhe arlkwentye akngerre kwenye.\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentence","url":null},"sentenceTranslation":{"fwd":[{"value":"The pipit belongs to the plain country. It makes his nest in amongst the green grass.\n\nWhen it’s got eggs in the nest, if a kid or a woman comes past its nest it flies up to a dry stick and sits down and watches them.\n\nIt makes sure that people don’t come near its nest and take its eggs.\n\nIf they go past it jumps down to the ground, jumps down and runs to its nest and sits on top of its eggs.\n\nIt eats a kind of caterpillar that lives in the ground,  and little butterflies maybe or little insects. But people don't eat pipits. \n\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceTranslation","url":null},"scientificName":{"fwd":[{"value":"Anthus novaeseelandiae","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"scientificName","url":null},"http://pcdm.org/models#memberOf":{"fwd":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"rev":[],"label":"pcdm:memberOf","url":"http://pcdm.org/models#memberOf"},"http://schema.org/license":{"fwd":[{"value":"","target_id":"","target_name":"","url":"https://creativecommons.org/licenses/by/4.0/","local_url":""}],"rev":[],"label":"license","url":"http://schema.org/license"},"http://schema.org/hasPart":{"fwd":[{"value":"","target_id":"files/images/TR-ntyerlpenye-1.jpg","target_name":"files/images/TR-ntyerlpenye-1.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/names/ayeye-thipe-akerte/20151103-02-ntyerlpenye-w.mp3","target_name":"files/audio/names/ayeye-thipe-akerte/20151103-02-ntyerlpenye-w.mp3","url":"","local_url":""}],"rev":[],"label":"hasPart","url":"http://schema.org/hasPart"},"http://pcdm.org/models#hasMember":{"fwd":[],"rev":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"label":"pcdm:hasMember","url":"http://pcdm.org/models#hasMember"},"http://schema.org/isPartOf":{"fwd":[],"rev":[{"value":"","target_id":"files/images/TR-ntyerlpenye-1.jpg","target_name":"files/images/TR-ntyerlpenye-1.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/names/ayeye-thipe-akerte/20151103-02-ntyerlpenye-w.mp3","target_name":"files/audio/names/ayeye-thipe-akerte/20151103-02-ntyerlpenye-w.mp3","url":"","local_url":""}],"label":"isPartOf","url":"http://schema.org/isPartOf"}});
+            console.log('item.props:', {"http://schema.org/name":{"fwd":[{"value":"ntyerlpenye","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"name","url":"http://schema.org/name"},"http://schema.org/datePublished":{"fwd":[{"value":"2016-05-26 23:55:14","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"datePublished","url":"http://schema.org/datePublished"},"translation":{"fwd":[{"value":"Australasian Pipit","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"translation","url":null},"sentence":{"fwd":[{"value":"Ntyerlpenye apele thipe ahelhe playne- arenye. Re antywe mpwareme, atherrke atnartengeke.\n\nKwarte apeke ikwerenhe aneme, ante ampe apeke, arelhe apeke apetyeme, re arne antyerrke akertnele anemele areme.\n\nTyerrtye apeke antywe ikwerenhe-warne apetyeme-ketye, kwarte ikwerenhe inetyeke.\n\nItne apeke anpere alheme, kele re ahelhe-werne atnarnpeme atnarnpemele unteme antywe ikwere-werne kwarte akertnele artepe anetyeke.\n\nRe arlkweme tyape aparre, ahelhe-arenye intelyapelyape akweke apeke, aw insect akweke mape. Tyerrtyele renhe arlkwentye akngerre kwenye.\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentence","url":null},"sentenceTranslation":{"fwd":[{"value":"The pipit belongs to the plain country. It makes his nest in amongst the green grass.\n\nWhen it’s got eggs in the nest, if a kid or a woman comes past its nest it flies up to a dry stick and sits down and watches them.\n\nIt makes sure that people don’t come near its nest and take its eggs.\n\nIf they go past it jumps down to the ground, jumps down and runs to its nest and sits on top of its eggs.\n\nIt eats a kind of caterpillar that lives in the ground,  and little butterflies maybe or little insects. But people don't eat pipits. \n\n","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceTranslation","url":null},"scientificName":{"fwd":[{"value":"Anthus novaeseelandiae","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"scientificName","url":null},"callAudio":{"fwd":[{"value":"files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"callAudio","url":null},"nameAudio":{"fwd":[{"value":"files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"nameAudio","url":null},"sentenceAudio":{"fwd":[{"value":"files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3","target_id":"","target_name":"","url":"","local_url":""}],"rev":[],"label":"sentenceAudio","url":null},"http://pcdm.org/models#memberOf":{"fwd":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"rev":[],"label":"pcdm:memberOf","url":"http://pcdm.org/models#memberOf"},"http://schema.org/license":{"fwd":[{"value":"","target_id":"","target_name":"","url":"https://creativecommons.org/licenses/by/4.0/","local_url":""}],"rev":[],"label":"license","url":"http://schema.org/license"},"http://schema.org/hasPart":{"fwd":[{"value":"","target_id":"files/images/TR-ntyerlpenye-1.jpg","target_name":"files/images/TR-ntyerlpenye-1.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3","target_name":"files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3","target_name":"files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3","target_name":"files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3","url":"","local_url":""}],"rev":[],"label":"hasPart","url":"http://schema.org/hasPart"},"http://pcdm.org/models#hasMember":{"fwd":[],"rev":[{"value":"","target_id":"./","target_name":"Ayeye Thipe-akerte","url":"","local_url":""}],"label":"pcdm:hasMember","url":"http://pcdm.org/models#hasMember"},"http://schema.org/isPartOf":{"fwd":[],"rev":[{"value":"","target_id":"files/images/TR-ntyerlpenye-1.jpg","target_name":"files/images/TR-ntyerlpenye-1.jpg","url":"","local_url":""},{"value":"","target_id":"files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3","target_name":"files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_'pip'_-_on_ground).mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3","target_name":"files/audio/names/thipe-ayeye/20151103-02-ntyerlpenye-w.mp3","url":"","local_url":""},{"value":"","target_id":"files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3","target_name":"files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3","url":"","local_url":""}],"label":"isPartOf","url":"http://schema.org/isPartOf"}});
         </script>
 
-        <div class="feature-image">
-            
+        <div class="grid feature-image v-space-1em">
+            <div class="left">
+                
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/calls/32_Australasian_Pipit_(bilbali)(repeated_&#39;pip&#39;_-_on_ground).mp3" type="audio/mpeg">
+        </audio>
+    
+
+            </div>
+            <div class="right">
+                
     
         <div class="has-part-list">
             
@@ -171,40 +285,44 @@
             
                 
             
-        </div>
-    
-
-        </div>
-        <div class="feature-audio">
-            
-    
-        <div class="has-part-list">
+                
             
                 
-
-            
-                    
-                    <div class="has-part-item">
-                        <audio controls>
-                            <source src="../../../../../files/audio/names/ayeye-thipe-akerte/20151103-02-ntyerlpenye-w.mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
-                
-
             
         </div>
     
 
+            </div>
         </div>
-        <p>
-            Australasian Pipit
-            <br />
-            <span class="linnaean-name">
-                Anthus novaeseelandiae
-            </span>
-        </p>
-        <p>
-            Ntyerlpenye apele thipe ahelhe playne- arenye. Re antywe mpwareme, atherrke atnartengeke.
+
+        <div class="grid">
+            <div class="left"></div>
+            <div class="right">
+                <p>
+                Australasian Pipit
+                </p>
+                <p class="linnaean-name">
+                    Anthus novaeseelandiae
+                </p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="left">
+    
+        <button class="audio-play-btn" onclick="event.preventDefault(); var audio = this.nextElementSibling; if(audio.paused){ audio.play(); this.classList.add('playing'); } else { audio.pause(); this.classList.remove('playing'); }">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#222" />
+                <polygon points="18,14 36,24 18,34" fill="#fff"/>
+            </svg>
+        </button>
+        <audio style="display:none;">
+            <source src="../../../../../files/audio/sentences/thipe-ayeye/20151103-02-ntyerlpenye.mp3" type="audio/mpeg">
+        </audio>
+    
+</div>
+            <div class="right">
+                Ntyerlpenye apele thipe ahelhe playne- arenye. Re antywe mpwareme, atherrke atnartengeke.
 
 Kwarte apeke ikwerenhe aneme, ante ampe apeke, arelhe apeke apetyeme, re arne antyerrke akertnele anemele areme.
 
@@ -214,9 +332,13 @@ Itne apeke anpere alheme, kele re ahelhe-werne atnarnpeme atnarnpemele unteme an
 
 Re arlkweme tyape aparre, ahelhe-arenye intelyapelyape akweke apeke, aw insect akweke mape. Tyerrtyele renhe arlkwentye akngerre kwenye.
 
-        </p>
-        <p class="translation">
-            The pipit belongs to the plain country. It makes his nest in amongst the green grass.
+            </div>
+        </div>
+        <div class="grid">
+            <div class="left"></div>
+            <div class="right">
+                <span class="translation">
+                    The pipit belongs to the plain country. It makes his nest in amongst the green grass.
 
 When it’s got eggs in the nest, if a kid or a woman comes past its nest it flies up to a dry stick and sits down and watches them.
 
@@ -227,12 +349,13 @@ If they go past it jumps down to the ground, jumps down and runs to its nest and
 It eats a kind of caterpillar that lives in the ground,  and little butterflies maybe or little insects. But people don&#39;t eat pipits. 
 
 
-        </p>
+                </span>
+            </div>
+        </div>
 
 
     </div>
 </div>
-
 
 
 
